@@ -121,7 +121,7 @@ def main():
             return
 
         if message.attachments and message.channel.name not in cfg['excluded_channels']:
-            print(f'Analyzing attachment from {message.author.name} in channel {message.channel.name}, flush=True')
+            print(f'Analyzing attachment from {message.author.name} in channel {message.channel.name}', flush=True)
             if predict_image(message.attachments[0].url,
                             cfg['blocklist'],
                             cfg['sum_weight_threshold'],
