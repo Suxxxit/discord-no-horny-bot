@@ -1,0 +1,18 @@
+{
+    "token_location" : ".discordtoken",
+    "model_path" : "model/mobilenet_v2_140_224/",
+    "images" : {
+        "prefix" : "pics/",
+        "tempdir" : "tmp/",
+        "files_default" : "defaulthorny/*",
+        "files_nospoiler" : "nospoiler/*"
+    },
+    "dictionaries" : {
+        "prefix" : "dictionaries/",
+        "files_default" : "nohorny*",
+        "files_nospoiler" : "nospoiler*"
+    },
+    "blocklist" : ["hentai", "sexy", "porn"],
+    "sum_weight_threshold" : 0.47,
+    "excluded_channels" : ["nsfw"]
+}
