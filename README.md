@@ -19,7 +19,7 @@ This Discord bot will check all pictures sent to the server where it is installe
 - Suitable to be ran on a remote VM
 
 ## Quickstart
-To create the bot itself, please refer to official Discord Developer documentation.
+To create the bot itself, please refer to official [Discord Developer documentation](https://discordpy.readthedocs.io/en/stable/discord.html).
 
 1. Install dependencies:
     ```bash
