@@ -3,7 +3,7 @@
 ## Purpose
 I am not a big fan of moderation, especially done by bots. *Shaming*, on the other hand...
 
-This Discord bot will check all pictures sent to the server where it is installed, and if a picture contains NSFW materials, bot will mention the sender with randomly generated shaming message and will send a random reaction picture.
+This Discord bot will check all pictures sent to the server where it is installed, and if a picture contains NSFW materials, bot will mention the sender with randomly generated shaming message and add a random reaction picture.
 
 ## Features
 - Picture categorization powered by [nsfw-detector](https://pypi.org/project/nsfw-detector/), supporting the following categories:
@@ -12,7 +12,7 @@ This Discord bot will check all pictures sent to the server where it is installe
     - hentai
     - drawings
     - neutral
-- Additional adjustment for more presice detection
+- Additional adjustment for more precise detection
 - Different sets of phrases and pictures for scenarios when picture is posted under/without spoiler
 - 2-component phrases, allowing more variety in the bot responses
 - Channel exclusion for channels where posting lewd stuff is kinda the whole point
